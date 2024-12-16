@@ -26,13 +26,13 @@ defmodule Merquery.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:kino, ">= 0.12"},
+      {:kino, ">= 0.12.0"},
       {:phoenix, ">= 1.7.2", optional: true},
-      {:req, ">= 0.4"},
+      {:req, ">= 0.4.0"},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
-      {:jason, ">= 1.4"},
+      {:jason, ">= 1.4.0"},
       {:curl_req, ">= 0.98.5"},
-      {:flint, ">= 0.6"}
+      {:flint, ">= 0.6.0"}
     ]
   end
 
